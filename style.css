@@ -29,12 +29,16 @@ nav {
     flex-wrap: wrap;
 }
 
-#language-switcher button{
-    padding: 0 2px;
+#language-switcher a{
+    background-color: white;
+    padding: 3px 5px;
     font-weight: 600;
     font-size: 14px;
 }
 
+#language-switcher button:hover{
+
+}
 nav ul li{
     display: inline-block;
     list-style: none;
